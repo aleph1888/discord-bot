@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-bot",
+  "version": "1.0.0",
+  "description": "https://discord.com/developers/applications/792675040226836500",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc && node build/index.js",
+    "start": "tsc -w & nodemon -q -w . build build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "token": "Nzk2ODU0MjQ1MTY0NDQ5Nzky.X_d-WA.b0JJtvF_w5xOHUyOBDF-9c7E_5k",
+  "broker": "mqtt://localhost:1883",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "mqtt": "^4.2.6",
+    "rxjs": "^6.6.3",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.3"
+  }
+}

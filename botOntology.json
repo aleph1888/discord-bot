@@ -1,0 +1,25 @@
+[{
+	"content": "!bot-name",
+	"response": "Do I stand my self, sir? Now I only can give you the state, ask 'help'."
+},
+{
+	"content": "xxxx!bot-name helpOLD",
+	"response": "rules | site | random | wallet | kill-switch | net | hashtags | paranormal-game | soundtrack| date | version | reg_help"
+},
+{
+	"content": "!bot-name help",
+	"response": "rules | reg_help | site | random | hashtags | soundtrack| date | logos | version"
+},
+{
+	"content": "!bot-name site",
+	"response": "http://URL.org/"
+},
+{
+	"content": "xxxx!bot-name net",
+	"response": "DATA"
+},
+{
+	"content": "!bot-name version",
+	"response": "Current version is 0.0.8"
+}
+]
