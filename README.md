@@ -7,6 +7,7 @@ discord-bot Bot
 ==========
 This is a discord bot. Use [botOntology.json](botOntology.json) to manage text (static) responses. Use [UserActions.ts](src/Discord/UserActions.ts) to add dynamic logic.
 
+Test
 
 Ubuntu bot installation
 -----------------
